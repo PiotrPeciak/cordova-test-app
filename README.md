@@ -5,6 +5,9 @@ Aplikacja ta raczej nigdy nie doczeka się wersji finalnej. Jej celem jest zbier
 
 ### Start ###
 
+Do uruchomienia należy mieć pobrane SDK w wersji 5.1.1 (level: 22) - w przeciwnym razie trzeba zmienić w `build.bat` na pobranie odpowiedniej platformy android np. `@6.2.1`
+oraz w `config.xml` zmienić `android-targetSdkVersion` na  taką wersję SDK jaką posiadamy.
+
 Przygotowano skrypt do budowy aplikacji (usuwa platform i buduje na nowo)
 wystarczy z wiersza poleceń wywołać skrypt `build.bat`
 
